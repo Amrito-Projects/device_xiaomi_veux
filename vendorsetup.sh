@@ -25,4 +25,10 @@ git clone https://github.com/MrTopia/vendor_bcr vendor/bcr
 echo "Clonimg AGC CAMERA......."
 
 git clone https://gitlab.com/takixamru/vendor_xiaomi_agc-camera.git vendor/xiaomi/AGC-Camera
+
+echo "Cloning MIUI Camera..."
+# MIUI Camera
+git clone https://github.com/Amrito-Projects/vendor_xiaomi_miuicamera-veux.git vendor/xiaomi/miuicamera-veux
+git clone https://github.com/Amrito-Projects/vendor_xiaomi_miuicamera.git vendor/xiaomi/miuicamera
+
 echo "Completed, proceeding to lunch"
