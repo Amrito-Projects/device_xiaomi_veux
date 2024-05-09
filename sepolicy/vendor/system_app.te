@@ -4,3 +4,5 @@ allow system_app sysfs_battery_supply:file { read open getattr };
 
 # Xiaomi Parts
 allow system_app sysfs_thermal:file write;
+allow system_app vendor_sysfs_graphics:file write;
+allow system_app system_server:file { write read };
