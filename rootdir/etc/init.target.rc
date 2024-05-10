@@ -67,6 +67,13 @@ on init
     chown system system /sys/class/qcom-battery/charging_call_state
     chmod 0660 /sys/class/qcom-battery/charging_call_state
 
+    chown system system /sys/class/drm/card0/card0-DSI-1/hbm
+    chmod 0664 /sys/class/drm/card0/card0-DSI-1/hbm
+
+on early-fs
+    start vold
+
+
 on fs
     mount_all --early
     chown root system /mnt/vendor/persist

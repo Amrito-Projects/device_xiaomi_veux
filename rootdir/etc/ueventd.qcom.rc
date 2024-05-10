@@ -510,10 +510,12 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/devices/platform/soc/*.i2c/i2c-*/*-*/iio:device*   in_temp_scale                   0664    system  system
 /sys/devices/platform/soc/*.i2c/i2c-*/*-*/iio:device*   in_temp_scale_available         0664    system  system
 
-
 # Elliptic
 /dev/elliptic0                 0644   system       system
 /dev/elliptic1                 0644   system       system
 
 # Charger
 /sys/class/qcom-battery   input_suspend      0660    system  system
+
+# HBM
+/sys/class/drm/card0/card0-DSI-1                        hbm                      	0666    system  system
