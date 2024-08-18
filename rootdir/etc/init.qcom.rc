@@ -172,8 +172,8 @@ on post-fs-data
     mkdir /data/vendor/modem_config 0570 radio root
 
     #Add for ir
-    chown system system /dev/ir_spi
-    chmod 0666 /dev/ir_spi
+    chown system system /dev/lirc[0-9]+
+    chmod 0666 /dev/lirc[0-9]+
 
     #Create directories for Location services
     mkdir /data/vendor/location 0770 gps gps
