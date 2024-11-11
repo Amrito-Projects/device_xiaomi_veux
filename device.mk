@@ -523,3 +523,6 @@ PRODUCT_PACKAGES += \
 
 # ViPER4AndroidFX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
+# AGC CAMERA
+$(call inherit-product, vendor/xiaomi/AGC-Camera/config.mk)

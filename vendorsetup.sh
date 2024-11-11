@@ -22,4 +22,7 @@ echo "Cloning BCR..."
 # BCR
 git clone https://github.com/MrTopia/vendor_bcr vendor/bcr
 
+echo "Clonimg AGC CAMERA......."
+
+git clone https://gitlab.com/takixamru/vendor_xiaomi_agc-camera.git vendor/xiaomi/AGC-Camera
 echo "Completed, proceeding to lunch"
